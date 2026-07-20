@@ -1,6 +1,6 @@
 cask "whisper-pro" do
-  version "2.1"
-  sha256 "9bbab0c45ef2329f19932cd98ae448e679c8c1fc2fe98dd045728cb42a6be0e1"
+  version "2.2"
+  sha256 "3230842a2499cc9faac7dc49c055bcd85119f13b51286a2e593fc6f85a4e17d9"
 
   url "https://github.com/ZdenekCulik/whisper-pro/releases/download/v#{version}/WhisperPro-#{version}.dmg",
       verified: "github.com/ZdenekCulik/whisper-pro/"
