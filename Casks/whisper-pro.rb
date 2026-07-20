@@ -1,6 +1,6 @@
 cask "whisper-pro" do
-  version "2.2"
-  sha256 "3230842a2499cc9faac7dc49c055bcd85119f13b51286a2e593fc6f85a4e17d9"
+  version "2.2.1"
+  sha256 "cdf45598c0f202836a83d8646bb953548d10732a79d67471539b5694a6f97bdb"
 
   url "https://github.com/ZdenekCulik/whisper-pro/releases/download/v#{version}/WhisperPro-#{version}.dmg",
       verified: "github.com/ZdenekCulik/whisper-pro/"
@@ -26,7 +26,7 @@ cask "whisper-pro" do
     "~/Library/Preferences/com.prakashjoshipax.WhisperPro.plist",
   ]
 
-  # 2.1 is Developer ID signed but not notarized: Apple's notary service was
+  # 2.2.1 is Developer ID signed but not notarized: Apple's notary service was
   # holding submissions when it shipped. Drop this once a notarized build lands.
   caveats <<~EOS
     If macOS refuses to open Whisper Pro, allow it once in
